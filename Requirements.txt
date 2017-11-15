@@ -1,0 +1,11 @@
+Memberships
+
+* User should see link for Basic plan on home page.
+* User should see link for Pro plan on home page.
+* Basic plan link should point to regular Devise sign up form.
+* Pro plan link should point to a custom sign up form.
+
+This is the instructor's example of pseudocode. The whole point is to be able to break a problem down into steps
+before writing code. This is the road map for adding the user forms. In a real world job, your boss would give
+you a task to accomplish, and you could begin by breaking the problem down into these code agnostic basic
+tasks, and plan your solution from there.
