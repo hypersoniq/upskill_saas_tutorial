@@ -13,10 +13,11 @@ This tutorial is covering many different technologies;
 8. Working with the Cloud9 IDE
 9. Deploying applications to Heroku
 10. Using revision control via Git and GitHub
-11. Use of the Devise gem
-12. Use of the Hirb gem
+11. Use of the Devise gem (Generating user signup files)
+12. Use of the Hirb gem (formatting database tables in the rails console)
 13. Following full stack best practices
-14. Use of the Figaro gem
+14. Use of the Figaro gem (security)
+15. Use of the Stripe gem (accepting online payments)
  
 Code examples and algorithm challenges have their place in learning new technology, 
 but the best way to feel you are making progress is to BUILD something! 
