@@ -1,6 +1,10 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
   
+  # Whitelist the following form fields so that we can process them, if coming
+  # from a Devisesign up form.
+  # Whitelisting is a security feature so that hackers cannot add extra fields
+  
   before_action :configure_permitted_parameters, if: :devise_controller?
   
   protected
