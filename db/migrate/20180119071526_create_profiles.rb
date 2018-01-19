@@ -1,7 +1,9 @@
 class CreateProfiles < ActiveRecord::Migration[5.0]
   def change
     create_table :profiles do |t|
+      # Acts as a foeign key to user's 
       t.integer :user_id
+      
       t.string :first_name
       t.string :last_name
       t.string :job_title
@@ -9,6 +11,7 @@ class CreateProfiles < ActiveRecord::Migration[5.0]
       t.string :contact_email
       t.text :description
       t.timestamps
+      
     end
   end
 end
